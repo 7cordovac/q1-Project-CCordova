@@ -8,10 +8,8 @@ $( document ).ready(function() {
         success: function(data){
           if (data.length != 0) {
             output = "";
-
             for (var i=0; i < data.response.length; i++) {
             var word1 = data.response[i].list.synonyms;
-         //   var wordsplit = word1.synonyms.split('|');
             $('#wordlist').append("<li>"+ word1+ "</li>");
             }
          } else $("#wordlist").html("empty data");
