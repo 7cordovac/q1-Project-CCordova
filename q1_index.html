@@ -2,14 +2,12 @@
 
 <html>
 <head>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <meta charset="utf-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
     </script>
-    <script>
-    $(document).ready(function(){
-    $("wordlist").animate({fontSize: '100px'}, "slow");
-});
-</script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
     <script
       src="https://code.jquery.com/jquery-3.1.1.min.js"
       integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
@@ -31,13 +29,14 @@
    <div class="container">
       <div class="row" id="top">
          <div class="col-md-12">
-            <h1>Word Parallel</h1>
-               <div class="col-md-6-offset-md-3">
-                  <div>
+            <h1 class="animated bounceInLeft">Word Parallel</h1>
+         </div>
+         <div class="col-md-6-offset-md-3">
+            <div>
                      <input type="text" class="button" id="inputText" placeholder="word to search"></input>
                   </div>
                   <button id ="searchButton">
-                     <a href="#">click to search</a>
+                     <div class="animated flip"a href= "#">click to search</div>
                   </button>
                </div>
             </div>
@@ -45,7 +44,9 @@
          <div class="row">
             <div class="col-md-2-offset-md-9" align="center">
                <div id="newsearch"><a href= "#">new search</a>
+
                </div>
+            </div>
             </div>
         </div>
         <div>

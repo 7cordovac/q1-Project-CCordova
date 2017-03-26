@@ -1,4 +1,3 @@
-
 $( document ).ready(function() {
    $("#newsearch").hide();
    $( "#searchButton" ).click(function() {
@@ -9,10 +8,11 @@ $( document ).ready(function() {
         success: function(data){
           if (data.length != 0) {
             output = "";
-            var word1 = data.response[0].list;
-            var wordsplit = word1.synonyms.split('|');
+
             for (var i=0; i < data.response.length; i++) {
-               $('#wordlist').append("<li>"+wordsplit[i]+ "</li>");
+            var word1 = data.response[i].list.synonyms;
+         //   var wordsplit = word1.synonyms.split('|');
+            $('#wordlist').append("<li>"+ word1+ "</li>");
             }
          } else $("#wordlist").html("empty data");
       },
