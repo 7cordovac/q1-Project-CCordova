@@ -1,25 +1,31 @@
 #top  {
    height: 250px;
-   font: garamond Bold 20px;
-   font-size: 20px;
    background-color: gold;
    text-align: center;
-   margin: 20px;
-   box-shadow: 15px 15px 15px #555;
-   border-radius: 10px;ope
+   box-shadow: 20px 20px 20px #663;
+   border-radius: 10px;
 }
 
- .newsearch {
-    margin-right: 30%;
+#newsearch {
+   margin-top: 2%;
+   font-size: 18px;
+   font-style:italic;
+}
+
+.animated {
+   animation-duration: 1.5s;
 }
 
 #inputText {
    text-align: center;
-   font-size:20px;
-   margin:30px;
-   border-radius: 10px 10px 10px #555;
+   font-size:160%;
+   margin:20px;
 }
 
-#col-md-4 {
-   font: 20px;
+#wordlist {
+   font-size:20px;
+}
+
+#col-md-2-offset-md-9 {
+   margin-top: 15px;
 }
