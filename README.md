@@ -1,9 +1,6 @@
 # q1-project
 q1 project Word Parallel
 
-
-q1 project Word Parallel
-
 The goal of thi project is to demonstrate my knowledge of the software development process and utilize the following to create a web app in 1 week.
 
 Create new repostiory, without forking Have valid, well-indented, and semantic HTML. Have valid, well-indented, and minimally-specific CSS. Have linted, readable, and concise JavaScript. Use embedded media like fonts, images, audio, or video. Use a front-end framework like Bootstrap, Foundation, or Materialize. Respond to form input and/or user events. Connect to at least one external web API via Ajax. Be deployed to a production environment.
