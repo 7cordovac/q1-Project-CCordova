@@ -24,3 +24,5 @@ What was the most valuable piece of Customer feedback you received? A: its simpl
 
 A. What was the biggest challenge you had to overcome?
 This is my first web application. I am fairly new to javascript, jquery and APIs, I had to spend time verifying my code and errors. We only had 5 days for this project, from proposal being approved to due date.
+
+To preview this app in the browser, http://htmlpreview.github.io/?http://github.com/7cordovac/q1-Project-CCordova/blob/gh-pages/q1_index.html#
